@@ -6,5 +6,7 @@ package com.example.demo.controller;
  * @Date:2021/6/30
  */
 public class EsController {
-    private int sum = 0;
+    private int b = 0;
+
+
 }
