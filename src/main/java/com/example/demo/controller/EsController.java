@@ -10,9 +10,14 @@ public class EsController {
     public static void main(String[] args) {
         System.out.println("测试");
         addSum(10);
+        add(10,10);
     }
 
     private static void addSum(int i){
         System.out.println("addSum:"+i);
+    }
+
+    private static void add(int a,int b){
+        System.out.println("add:"+(a+b));
     }
 }
