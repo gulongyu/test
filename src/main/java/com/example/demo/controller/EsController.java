@@ -27,5 +27,9 @@ public class EsController {
         System.out.println("add:"+(a+b)+"-");
     }
 
+    private static void add2(int a,int b){
+        System.out.println("add:"+(a+b)+"-");
+    }
+
 
 }
