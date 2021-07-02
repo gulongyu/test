@@ -11,6 +11,7 @@ public class EsController {
         System.out.println("测试");
         addSum(10);
         add(10,10);
+        add1(20,20);
     }
 
     private static void addSum(int i){
@@ -20,4 +21,10 @@ public class EsController {
     private static void add(int a,int b){
         System.out.println("add:"+(a+b));
     }
+
+    private static void add1(int a,int b){
+        System.out.println("add:"+(a+b));
+    }
+
+
 }
