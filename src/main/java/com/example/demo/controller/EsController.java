@@ -6,7 +6,9 @@ package com.example.demo.controller;
  * @Date:2021/6/30
  */
 public class EsController {
-    private  int sum = 0;
+    private int sum = 0;
+    private int ad=1;
+
     public static void main(String[] args) {
         System.out.println("测试");
         addSum(10);
@@ -23,7 +25,7 @@ public class EsController {
     }
 
     private static void add1(int a,int b){
-        System.out.println("add:"+(a+b));
+        System.out.println("add:"+(a+b)+"-");
     }
 
 
