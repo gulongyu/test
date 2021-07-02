@@ -7,7 +7,6 @@ package com.example.demo.controller;
  */
 public class EsController {
     private int sum = 0;
-    private int ad=1;
 
     public static void main(String[] args) {
         System.out.println("测试");
